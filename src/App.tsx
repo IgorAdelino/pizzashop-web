@@ -1,6 +1,6 @@
 import './index.css'
 
-import { QueryClientProvider } from 'node_modules/@tanstack/react-query/build/legacy'
+import { QueryClientProvider } from '@tanstack/react-query'
 import { Helmet, HelmetProvider } from 'react-helmet-async'
 import { RouterProvider } from 'react-router-dom'
 import { Toaster } from 'sonner'
